@@ -636,6 +636,7 @@ section {
 
 .features .icon-box h4 {
   font-size: 20px;
+  color: #ffffff;
   font-weight: 700;
   margin: 5px 0 10px 60px;
 }
@@ -648,7 +649,7 @@ section {
 
 .features .icon-box p {
   font-size: 15px;
-  color: #848484;
+  color: #aaaaaa;
   margin-left: 60px;
 }
 
@@ -699,7 +700,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #ffffff;
+  color: #dddddd;
   transition: ease-in-out 0.3s;
 }
 
@@ -1233,7 +1234,7 @@ section {
 --------------------------------------------------------------*/
 .contact .info {
   width: 100%;
-  background: #fff;
+  /* background: #222222; */
 }
 
 .contact .info i {
@@ -1255,14 +1256,14 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #151515;
+  color: #ffffff;
 }
 
 .contact .info p {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #484848;
+  color: #dddddd;
 }
 
 .contact .info .email,
@@ -1272,24 +1273,11 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  background: #fff;
+  /* background: #fff; */
 }
 
 .contact .php-email-form .form-group {
   padding-bottom: 8px;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .error-message br+br {
-  margin-top: 25px;
 }
 
 .contact .php-email-form .sent-message {
@@ -1300,26 +1288,6 @@ section {
   padding: 15px;
   font-weight: 600;
 }
-
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  animation: animate-loading 1s linear infinite;
-}
-
 .contact .php-email-form input,
 .contact .php-email-form textarea {
   border-radius: 0;
@@ -1341,7 +1309,7 @@ section {
   padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button {
   background: #FF7828;
   border: 0;
   padding: 10px 24px;
@@ -1350,8 +1318,9 @@ section {
   border-radius: 4px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
-  background: #FF7828;
+.contact .php-email-form button:hover {
+  background: #ff8742;
+  color: white;
 }
 
 @keyframes animate-loading {
@@ -1570,6 +1539,19 @@ section {
 }
 
 .carousel-item img {
-  max-height: 200px;
+  max-height: 515px;
   object-fit: cover;
+}
+
+.profile h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+}
+.profile p {
+  color: #aaaaaa;
+}
+.profile li {
+  color: #dddddd;
 }
