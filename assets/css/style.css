@@ -1539,8 +1539,9 @@ section {
 }
 
 .carousel-item img {
-  max-height: 515px;
+  max-height: 550px;
   object-fit: cover;
+  object-position: top center;
 }
 
 .profile h2 {
@@ -1551,7 +1552,11 @@ section {
 }
 .profile p {
   color: #aaaaaa;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .profile li {
   color: #dddddd;
+  text-align: justify;
+  text-justify: inter-word;
 }
